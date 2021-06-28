@@ -11,6 +11,10 @@ https://wkeilsohn.github.io/FoodPhotoSite/index.html
 
 This website is just a little place for me to host all the photos I take of the cakes, cookies, rice bowls, and other delicious foods that I make. 
 
+## Software Requirments:
+
+The photos may not load properly on FireFox. It is therefore recomended that you use Chrome when acessing the site.
+
 ## Contributing
 
 This website piggy-backs off of a Google Photos folder. Thus, it is probably worth noting that I do not work for Google, but I would like to give them a shout out. Hey ;)
