@@ -9,6 +9,18 @@ html, body{
 	margin-bottom: 0px;
 }
 
+body:before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top:  0;
+	z-index: -1;
+	opacity: 0.75;
+	background-image: url("plaid.png");
+}
+
 .outer_container{
 	height: 76.2%;
 	display: flex;
@@ -21,6 +33,7 @@ html, body{
 #google_photos{
 	width: 98%;
 	height: 100%;
+	background-color: white;
 }
 
 .navbar.center .navbar-inner{
@@ -47,4 +60,8 @@ html, body{
 .navbar-brand{
 	color: white;
 	font-size: 200%;
+}
+
+h1{
+	text-shadow: 1px 1px;
 }
