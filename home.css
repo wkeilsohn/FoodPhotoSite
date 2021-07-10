@@ -10,7 +10,7 @@ html, body{
 }
 
 .outer_container{
-	height: 81.2%;
+	height: 76.2%;
 	display: flex;
 }
 
@@ -23,28 +23,28 @@ html, body{
 	height: 100%;
 }
 
+.navbar.center .navbar-inner{
+	text-align: center;
+}
+
+.navbar{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 #top_bar{
 	background-color: black;
 	height: 5%;
 	width: 100%;
 }
 
-.navbar-brand{
-	min-height: 500px;
-	color: white;
-	margin: 10px;
-}
-
-.navbar-nav{
-	text-align: center;
-	color: white;
-	display: inline;
-	height: 90%;
-	min-height: 300px;
-}
-
 #bottom_bar{
 	padding-top: 20px;
 	background-color: black;
 	bottom: 0;
+}
+
+.navbar-brand{
+	color: white;
+	font-size: 200%;
 }
